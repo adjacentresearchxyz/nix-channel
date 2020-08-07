@@ -12,6 +12,4 @@ let
   pkgs = import sources.nixpkgs {
     overlays = [ helloOverlay ];
   };
-in {
-  nixpkgs = pkgs;
-}
+in pkgs

@@ -9,6 +9,11 @@ nix-channel --update
 nix-channel --list
 ```
 
+You can also specify the channel direct in a `nix-env` commmand 
+```
+nix-env -f https://github.com/adjacentresearchxyz/nix-channel/archive/main.tar.gz -qa '*'
+```
+
 ### Updating
 ```
 # clone the channel

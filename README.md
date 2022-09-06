@@ -4,7 +4,7 @@ Based on [lucperkins.dev/blog/nix-channel](https://lucperkins.dev/blog/nix-chann
 
 ### Using 
 ```
-nix-channel --add https://github.com/adjacentresearch/nix-channel/archive/main.tar.gz adjacent
+nix-channel --add https://github.com/adjacentresearchxyz/nix-channel/archive/main.tar.gz adjacent
 nix-channel --update
 nix-channel --list
 ```
@@ -12,7 +12,7 @@ nix-channel --list
 ### Updating
 ```
 # clone the channel
-git clone https://github.com/adjacentresearch/nix-channel
+git clone https://github.com/adjacentresearchxyz/nix-channel
 
 # install `niv` 
 nix-shell -p niv
